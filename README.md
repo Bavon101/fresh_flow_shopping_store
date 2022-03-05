@@ -1,16 +1,37 @@
 # shopping_app
 
-A new Flutter project.
+A simple Flutter app that displays a simple shopping cart stored online
 
-## Getting Started
+## Screenshots Mobile 📷📲
+![screenshot](./screenshots/login_page.png)
+![screenshot](./screenshots/cart_page.png)
+![screenshot](./screenshots/item_page.png)
+### Setup
+- `git clone https://github.com/Bavon101/fresh_flow_shopping_store.git`
+- `cd Leaderboard`
+- `flutter pub get`
+- `flutter run`
+## dependencies
+-  `cupertino_icons: ^1.0.2`
+-  `firebase_auth: ^3.3.9`
+-  `cloud_firestore: ^3.1.10`
+-  `firebase_analytics: ^9.1.2`
+-  `flutterfire_ui: ^0.3.5+1`
+-  `firebase_core: ^1.13.1`
+-  `cached_network_image: ^3.2.0`
+-  `shimmer: ^2.0.0`
+## NOTE
+- The project uses `cloud_firestore` making the data accessible while offline
+- The images are rendered using `cached_network_image` which cache the images for fatter load-time and offline accessibility
+- The project displays mimicry item data card without edit options only viewing.
+- Events are logged to Firebase using the `firebase_analytics`
+- The login UI is by default called from `flutterfire_ui` that takes care of the  logic , awesome right ? 😉. 
+## Built With
+- Flutter
+- Firebase
 
-This project is a starting point for a Flutter application.
+## Authors
 
-A few resources to get you started if this is your first Flutter project:
+👤 **Author**
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- GitHub: [@Bavon101](https://github.com/Bavon101)
